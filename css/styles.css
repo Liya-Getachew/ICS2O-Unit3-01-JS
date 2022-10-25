@@ -30,10 +30,13 @@ p {
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 1.5rem;
-  padding-top: 15pt;
 }
 
 img {
   float: right;
   margin-right: 15px;
+}
+
+#formula {
+  padding-left: 20px;
 }
