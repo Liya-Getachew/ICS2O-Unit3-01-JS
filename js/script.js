@@ -25,7 +25,7 @@ function solveArea() {
   const height = parseInt(document.getElementByID("height").value)
 
   //process
-  const area = ((baseA + baseB)/ 2) * height
+  const area = ((baseA + baseB) / 2) * height
 
   //output
   document.getElementById("area").innerHTML = "Area = " + area + " mm²"
