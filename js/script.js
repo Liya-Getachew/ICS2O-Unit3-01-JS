@@ -20,9 +20,9 @@ if (navigator.serviceWorker) {
  */
 function solveArea() {
   //input
-  const baseA = parseInt(document.getElementByID("base-a").value)
-  const baseB = parseInt(document.getElementByID("base-b").value)
-  const height = parseInt(document.getElementByID("height").value)
+  const baseA = parseInt(document.getElementById("base-a").value)
+  const baseB = parseInt(document.getElementById("base-b").value)
+  const height = parseInt(document.getElementById("height").value)
 
   //process
   const area = ((baseA + baseB) / 2) * height
