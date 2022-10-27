@@ -10,7 +10,7 @@
  * Check service worker.
  */
 if (navigator.serviceWorker) {
-  navigator.serviceWorker.register("/ICS2O-Unit3-01-JS/", {
+  navigator.serviceWorker.register("/ICS2O-Unit3-01-JS/sw.js", {
     scope: "/ICS2O-Unit3-01-JS/",
   })
 }
